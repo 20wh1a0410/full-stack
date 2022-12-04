@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MUSIC GALAXY</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="MUSIC">MUSIC GALAXY</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+</body>
+</html>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+          <h1>Get ready to explore the world of music!!!</h1> 
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:25 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Senorita</span>
+                    <span class="songlistplay"><span class="timestamp">03:10<i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Heat-Waves</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">F.R.I.E.N.D.S</span>
+                    <span class="songlistplay"><span class="timestamp">03:24 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Believers</span>
+                    <span class="songlistplay"><span class="timestamp">02:55 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Harleys in Hawaii</span>
+                    <span class="songlistplay"><span class="timestamp">03:15 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Thousand years</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Love me like you do</span>
+                    <span class="songlistplay"><span class="timestamp">03:12 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Watermelon Sugar</span>
+                    <span class="songlistplay"><span class="timestamp">04:04 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Night changes</span>
+                    <span class="songlistplay"><span class="timestamp">03:54 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="data:image/jpeg;base64,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" width="42px" alt="" id="gif"> <span id="masterSongName">Let me love you</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
